@@ -66,3 +66,17 @@ h1 {
     font-family: 'Rubik', sans-serif;
     margin:60px 5px;
 }
+
+.box {
+    color: red;
+    border: 100px;
+    border-radius: 50%;
+    color:aqua;
+    font-size:100px;
+    position:center;
+   border-top-color:red;
+}
+    .box:hover {
+        color: red;
+        text-decoration: none;
+    }
