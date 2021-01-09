@@ -67,16 +67,21 @@ h1 {
     margin:60px 5px;
 }
 
-.box {
-    color: red;
-    border: 100px;
-    border-radius: 50%;
-    color:aqua;
-    font-size:100px;
-    position:center;
-   border-top-color:red;
+.button {
+    background-color: none;
+    position: absolute;
+    font-display: initial;
+    overflow: hidden;
+    font-size: large;
+    text-decoration:none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-    .box:hover {
-        color: red;
+
+    .button:hover {
+        background: #3D3B8E;
+        color: #F9A03F;
+        border: 3px dashed #627264;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: larger;
         text-decoration: none;
     }
