@@ -2,8 +2,11 @@
     margin: 0px;
 }
 
+
+body {
+    background-image: url(../img/108.jpg);
+}
 .xeno {
-    background-color: #09090C;
     color: white;
 }
 
