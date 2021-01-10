@@ -4,10 +4,16 @@
 
 
 body {
+    background-repeat: none;
     background-image: url(../img/108.jpg);
 }
 .xeno {
-    color: white;
+    color: white; 
+    
+}
+
+.chat{
+    color:red;
 }
 
 a {
