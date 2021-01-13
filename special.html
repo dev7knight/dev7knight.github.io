@@ -1,0 +1,66 @@
+<html>
+<head>
+    <title>Hello Admin - DEV7KNIHGT.GITHUB.IO</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/1c2c2462bf.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/fa724a2071.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./img/knight.jpg" type="image/x-icon type" />
+    <link rel="stylesheet" href="./css/special.css"
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+
+
+
+
+        $(document).ready(function () {
+
+            var html_set = "<label class='dot_holder'><input class='checkbox_shift' type='checkbox'/><span class='dot_shifter'></span></label>";
+
+
+            var checked = $(".checkbox_shift");
+
+            $(checked).click(function () {
+                if ($(this).prop("checked") == true) {
+                    $('body').css({ "background": "black" })
+                } else {
+                    $('body').css({ "background": "#C2C2FF" })
+                }
+            });
+
+        });
+
+    </script>
+
+    <label class='dot_holder'>
+        <input class='checkbox_shift' type='checkbox' />
+        <span class='dot_shifter'></span>
+    </label>
+
+
+
+
+
+    <center>
+
+        <h1>
+            <i class="fab fa-d-and-d"></i>
+        </h1>
+        </h1>
+        <h2>Hello Admin </h2>
+        <h2>
+            Welcome To Admins Special Place - A Place Where Admins Can Have Fun
+        </h2>
+
+        <a href="#">Special Posts </a>
+        <a href="#">Chat Room </a>
+        <a href="#">Gamming Area </a>
+        <a href="index.html">Home </a>
+
+    </center>
+
+
+</body>
+</html>
