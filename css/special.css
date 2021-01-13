@@ -82,3 +82,7 @@ a {
         text-decoration: none;
         border: 3px solid #f8961e;
     }
+
+body {
+    background-color: #C2C2FF;
+}
