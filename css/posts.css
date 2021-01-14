@@ -166,15 +166,20 @@ h3 {
 .large_text {
     padding: 5px !important;
     margin: 0;
-    //font-size: 24px;
+    font-size: 40px;
     border: 2px solid grey;
 }
 
-ul {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-}
+    .large_text:hover {
+        color: #bf0603;
+    }
+
+
+ ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
 
 .inline_li {
     display: inline !important;
