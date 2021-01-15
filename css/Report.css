@@ -1,0 +1,52 @@
+body {
+    background-image: url(../img/101.jpg);
+    color:white;
+    text-align:start;
+}
+
+.container {
+    display: inline-block;
+    float: left;
+    vertical-align: top;
+    width: 50%;
+    padding: 20px 0 0 0;
+    background-color: black;
+    color: white;
+}
+
+    .container li {
+        float: left;
+        padding: 0 20px 0 20px;
+        display: inline;
+        color:white;
+    }
+ .logo{
+     floar:right;
+ border:15px;
+ background-color:black;
+ padding:15px;
+ border:50px;
+text-align:right;
+     }
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    text-align: inline-block;
+    float: left;
+    padding: 0 20px 0 20px;
+    color: white;
+}
+a {
+    color: white;
+}
+
+    a:hover {
+        color: red;
+    }
+}
+
+    .container li a {
+        text-decoration: none;
+        list-style-type: none;
+    }

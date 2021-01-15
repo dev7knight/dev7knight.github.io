@@ -197,6 +197,9 @@ ul {
     color: grey;
 }
 
+
+
+
 .hovers {
     transition: .3s;
 }
@@ -250,7 +253,7 @@ ul {
 }
 
 .banner_main {
-    background-image: url("https://tinyurl.com/yxkwbhyn");
+    background-image: url("../img/back.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -468,4 +471,8 @@ textarea {
     .upload_dropdown, .search_dropdown {
         width: -webkit-fill-available;
     }
+}
+
+.bg {
+    color: grey;
 }

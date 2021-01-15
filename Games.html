@@ -1,4 +1,4 @@
-<html>
+﻿<html>
 <head>
     <title>Dev7Knight-(Games)</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -38,45 +38,19 @@
     <div class='header'>
 
         <ul>
-            <li class='inline_li'><span class='large_text text_head'>    <i class="fab fa-d-and-d"></i>  </span></li>
-            <li class='upload_click pointer inline_li right'><span class='text_head hovers'><i class='fas'>&#xf093;</i></span></li>
-            <li class='search_click pointer inline_li right'><span class='text_head hovers'><i class='fas'>&#xf002;</i></span></li>
-            <li class='pointer inline_li right'><span class='text_head hovers'><span>Dev7Knight</span></span></li>
-
+            <div class="bg">
+                <li class='pointer inline_li right'><span class='text_head hovers'><span>DEV7KNIGHT</span></span></li>
+                <li class='pointer inline_li right'><span class='text_head hovers'><a href="#packs"><span>GAME PACKS</span></a></span></li>
+                <li class='pointer inline_li right'><span class='text_head hovers'><a href="Report.html"><span>REPORT A BUG</span></a></span></li>
+                <li class='pointer inline_li right'><span class='text_head hovers'><a href="contact.html"><span>CONTACT</span></a></span></li>
+                <li class='pointer inline_li right'><span class='text_head hovers'><a href="index.html"><span>HOME</span></a></span></li>
+                <br />
+                <br />
+            </div>
         </ul>
 
     </div>
-    <!-- next is search task -->
-    <div class='search_dropdown'>
 
-        <div class='search_holder'>
-            <form action='search.php' method='get'>
-                <div class='flex'>
-                    <input type='search' class='searches search_inp' placeholder='Search...' />
-                    <button class='searches search_button' type='submit'><i class='fas'>&#xf002;</i></button>
-                </div>
-            </form>
-        </div>
-
-    </div>
-
-    <div class='upload_dropdown'>
-
-        <div class='upload_inputs'>
-
-            <form action='upload.php' method='post'>
-
-                <input class='inputs_main title_input' name='title' type='text' placeholder='title' /><br>
-
-                <textarea class='inputs_main' name='desc' placeholder='Image Description'></textarea><br>
-
-                <button class='inputs_main sub_btn' type='submit' value='Post'><i class='fas'>&#xf574;</i></button>
-
-            </form>
-
-        </div>
-
-    </div>
 
     <!-- next is banner main -->
 
@@ -113,7 +87,6 @@
                         <div class='Image_holder'>
                             <img src='http://findtheisle.com/wp-content/uploads/2017/11/8-320x240.jpg' width=230></img>
                             <div class='image_imp_info'>
-                                <span class='info'><i class='fas'>&#xf06e;</i></span>
                                 <span class='info'><i class='fas'>&#xf164;</i> </span>
                                 <span class='info'><i class='fas'>&#xf019;</i> </span>
                             </div>
@@ -142,19 +115,19 @@
 
                 <div class='info'>
                     <div class='info_type'>
-                        <span><i class='far'>&#xf2bd;</i> Game Packs</span>
+                        <span><i class='far'>  🐞 </i> Bugs Reported</span>
                     </div>
                     <div class='info_numbers'>
-                        <span>right now 0</span>
+                        <span> 0</span>
                     </div>
                 </div>
 
                 <div class='info'>
                     <div class='info_type'>
-                        <span><i class='far'>&#xf03e;</i>Games</span>
+                        <span><i class='far'>🏷️</i>Sales</span>
                     </div>
                     <div class='info_numbers'>
-                        <span>right now 0</span>
+                        <span> 0</span>
                     </div>
                 </div>
 
@@ -171,49 +144,49 @@
         <div class='user_post_holder'>
 
             <div class='header_posts'>
-                <span>GAMES</span>
+                <span>GAMES PACKS</span>
             </div>
 
 
-
-            <div class='main_post'>
-
-
+            <a name="packs">
+                <div class='main_post'>
 
 
-                <div class='margin_center'>
-                    <a class='all_dec' href='#'>
-                        <div class='Image_holder'>
-                            <img src='http://findtheisle.com/wp-content/uploads/2017/11/8-320x240.jpg' width=230></img>
-                            <div class='image_imp_info'>
-                                <span class='info'><i class='fas'>&#xf06e;</i></span>
-                                <span class='info'><i class='fas'>&#xf164;</i> </span>
-                                <span class='info'><i class='fas'>&#xf019;</i> </span>
+
+
+                    <div class='margin_center'>
+                        <a class='all_dec' href='#'>
+                            <div class='Image_holder'>
+                                <img src='http://findtheisle.com/wp-content/uploads/2017/11/8-320x240.jpg' width=230></img>
+                                <div class='image_imp_info'>
+                                    <span class='info'><i class='fas'>&#xf164;</i> </span>
+                                    <span class='info'><i class='fas'>&#xf019;</i> </span>
+                                </div>
+                                <span class='role'><i class='fas'>&#xf3ed;</i> Owner</span>
+
                             </div>
-                            <span class='role'><i class='fas'>&#xf3ed;</i> Owner</span>
-
-                        </div>
-                        <div class='quick_info'>
-                            <span class='pad_info title'>Really cool and long titleforthis post</span><br>
-                            <span class='pad_info user'>By <a class='main_username' href='#'>Dev7Knight</a></span>
-                        </div>
-                    </a>
+                            <div class='quick_info'>
+                                <span class='pad_info title'>Really cool and long titleforthis post</span><br>
+                                <span class='pad_info user'>By <a class='main_username' href='#'>Dev7Knight</a></span>
+                            </div>
+                        </a>
+                    </div>
                 </div>
-            </div>
         </div>
+        </a>
 
 
 
         <div class='site_info_main'>
             <div class='site_header'>
-                <span><i class='fas'>&#xf080;</i> Site Stats</span>
+                <span><i class='fas'>&#xf080;</i> Games Stats</span>
             </div>
 
             <div class='info_holder'>
 
                 <div class='info'>
                     <div class='info_type'>
-                        <span><i class='far'>&#xf2bd;</i> Game Packs</span>
+                        <span><i class='far'>📦</i> Game Packs</span>
                     </div>
                     <div class='info_numbers'>
                         <span>right now 0</span>
@@ -222,7 +195,7 @@
 
                 <div class='info'>
                     <div class='info_type'>
-                        <span><i class='far'>&#xf03e;</i>Games</span>
+                        <span><i class='far'>&#127918; </i>Games</span>
                     </div>
                     <div class='info_numbers'>
                         <span>right now 0</span>
@@ -230,9 +203,12 @@
                 </div>
 
             </div>
-
+            <br />
+            <br />
+            <br />
         </div>
 
+       
 
 
 </body>
