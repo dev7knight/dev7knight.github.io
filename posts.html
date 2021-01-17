@@ -8,173 +8,156 @@
     <link rel="stylesheet" href="./css/posts.css"
 </head>
 <body>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-
-
-
-    
-
-
-
-        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script type="text/javascript"
-        src="https://www.viralpatel.net/demo/jquery/jquery.shorten.1.0.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
-    $(document).ready(function(){
-      $(".search_click").click(function() {
-                $(".search_dropdown").fadeToggle(400)
+        $(document).ready(function () {
+            $(".open_menu").click(function () {
+                $(".account_ops").toggleClass("open");
             });
-
-        $(".upload_click").click(function() {
-                $(".upload_dropdown").fadeToggle(400)
-            });
-
-        $(".title").shorten({
-        "showChars" : 30
-    });
-       });
+        });
     </script>
-    <div class='header'>
 
-        <ul>
-            <li class='inline_li'><span class='large_text text_head'>    <i class="fab fa-d-and-d"></i>  </span></li>
-            <li class='upload_click pointer inline_li right'><span class='text_head hovers'><i class='fas'>&#xf093;</i></span></li>
-                <li class='search_click pointer inline_li right'><span class='text_head hovers'><i class='fas'>&#xf002;</i></span></li>
-            <li class='pointer inline_li right'><span class='text_head hovers'><span>Dev7Knight</span></span></li>
+    <div class='main_holder'>
 
-        </ul>
-
-    </div>
-    <!-- next is search task -->
-    <div class='search_dropdown'>
-
-        <div class='search_holder'>
-            <form action='search.php' method='get'>
-                <div class='flex'>
-                    <input type='search' class='searches search_inp' placeholder='Search...' />
-                    <button class='searches search_button' type='submit'><i class='fas'>&#xf002;</i></button>
-                </div>
-            </form>
-        </div>
-
-    </div>
-
-    <div class='upload_dropdown'>
-
-        <div class='upload_inputs'>
-
-            <form action='upload.php' method='post'>
-
-                <input class='inputs_main title_input' name='title' type='text' placeholder='title' /><br>
-
-                <textarea class='inputs_main' name='desc' placeholder='Image Description'></textarea><br>
-
-                <button class='inputs_main sub_btn' type='submit' value='Post'><i class='fas'>&#xf574;</i></button>
-
-            </form>
-
-        </div>
-
-    </div>
-
-    <!-- next is banner main -->
-
-    <div class='banner_main'>
-
-
-        <div class='center_text_name'>
-            <h2>DEV7KNIGHT.GITHUB.IO</h2>
-            <h3> Special Posts For Admins</h3>
-        </div>
-
-    </div>
-
-
-    <!-- next is user posts -->
-
-    <div class='site_info_posts'>
-
-        <div class='user_post_holder'>
-
-            <div class='header_posts'>
-                <span>Submissions</span>
-            </div>
-
-
-
-            <div class='main_post'>
-
-
-
-
-                <div class='margin_center'>
-                    <a class='all_dec' href='#'>
-                        <div class='Image_holder'>
-                            <img src='http://findtheisle.com/wp-content/uploads/2017/11/8-320x240.jpg' width=230></img>
-                            <div class='image_imp_info'>
-                                <span class='info'><i class='fas'>&#xf06e;</i></span>
-                                <span class='info'><i class='fas'>&#xf164;</i> </span>
-                                <span class='info'><i class='fas'>&#xf019;</i> </span>
-                            </div>
-                            <span class='role'><i class='fas'>&#xf3ed;</i> Owner</span>
-
+        <div class='header'>
+            <div class='inputs_holder'>
+                <ul>
+                    <li class='lileft'>
+                        <div class='logo_img'>
+                            <h1>        <i class="fab fa-d-and-d"></i> <h
                         </div>
-                        <div class='quick_info'>
-                            <span class='pad_info title'>Really cool and long titleforthis post</span><br>
-                            <span class='pad_info user'>By <a class='main_username' href='#'>Dev7Knight</a></span>
+                    </li>
+
+                    <li class='liright open_menu'><div class='heading_button_2'>Admin <i class='fas'>&#xf107;</i></div></li>
+
+
+                </ul>
+
+
+                <h6>Dev7Knight.Github.Io</h6>
+
+            </div>
+        </div>
+
+        <div class='account_ops'>
+            <ul>
+                <li><a href="index.html"><div class='acc_op'>Home</div></a></li>
+                <li><a href="special.html"><div class='acc_op'>Back</div></a></li>
+                <li><a href="Report.html"><div class='acc_op'>Report A Bug</div></a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
+
+    <div class='banner'>
+
+        <div class='banner_image'>
+
+        </div>
+
+    </div>
+
+
+
+
+    <div class='main_holder_for_images'>
+
+        <div class='image_outer_holer'>
+            <div class='image_holder_header'>
+                <span class='head_posts'>Posts</span>
+            </div>
+
+
+            <div class='posts'>
+
+
+
+
+                <a class='all_href' href=''>
+                    <div class='final_post'>
+
+                        <div class='image_holder'>
+
+                            <img src='./img/7474.jpg' width=250></img>
                         </div>
-                    </a>
-                </div>
-            </div>
-        </div>
 
+                        <div class='title_user_holder'>
+                            <span class='title'>New Video On Youtube Comming Soon </span><br>
+                            <span class='username_holder'>Upload By : <a href='' class='username_post'>Dev7Knight</a></span>
+                        </div>
 
-
-        <div class='site_info_main'>
-            <div class='site_header'>
-                <span><i class='fas'>&#xf080;</i> Site Stats</span>
-            </div>
-
-            <div class='info_holder'>
-
-                <div class='info'>
-                    <div class='info_type'>
-                        <span><i class='far'>&#xf2bd;</i> ADMINS</span>
                     </div>
-                    <div class='info_numbers'>
-                        <span>2</span>
-                    </div>
-                </div>
+                </a>
 
-                <div class='info'>
-                    <div class='info_type'>
-                        <span><i class='far'>&#xf03e;</i> Posts</span>
-                    </div>
-                    <div class='info_numbers'>
-                        <span>10</span>
-                    </div>
-                </div>
+
+
+
+
 
             </div>
+
 
         </div>
 
 
 
-    </div>
-    
-
-    <!-- next is load btn -->
 
 
-    <div class='load_more'>
-        <span>Load More</span>
+
+
     </div>
 
+    <div class='main_holder_for_images'>
 
+        <div class='image_outer_holer'>
+            <div class='image_holder_header'>
+                <span class='head_posts'>Leaks</span>
+            </div>
+
+
+            <div class='posts'>
+
+
+
+
+                <a class='all_href' href=''>
+                    <div class='final_post'>
+
+                        <div class='image_holder'>
+                            <img src='./img/7482.jpg' width=250></img>
+                        </div>
+
+                        <div class='title_user_holder'>
+                            <span class='title'>New Game Comming Soon</span><br>
+                            <span class='username_holder'> By : <a href='' class='username_post'>DEV7KNIGHT</a></span>
+                        </div>
+
+                    </div>
+                </a>
+
+
+
+
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+
+    <script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({ c: 'a278bee5-49de-40d0-be03-05b34d9fb33e', f: true }); done = true; } }; })();</script>
 </body>
 </html>
 
