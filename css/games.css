@@ -85,12 +85,16 @@ body {
 
 .site_info_posts {
     display: flex;
+    padding:15px;
+    border:15px;
 }
 
 .site_info_main {
     margin: 5px;
     background: rgba(0,0,0,.5);
     padding-bottom: 5px;
+    padding: 15px;
+    border: 15px;
 }
 
 .user_post_holder {
@@ -124,7 +128,7 @@ body {
 .header_posts, .site_header {
     color: white;
     background: rgba(0,0,0,.5);
-    padding: 8px 15px;
+    padding: 10px 15px;
     border-radius: 4px;
 }
 
