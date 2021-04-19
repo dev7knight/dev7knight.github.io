@@ -1,0 +1,23 @@
+body {
+    font-family: monospace;
+    background-color: #333;
+    color:#ddd;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+}
+
+.animate-flicker {
+    animation: fadeIn 1s infinite alternate;
+   
+}
+
+.r{
+    color:red;
+}
+.e{
+    color: darkred;
+}
