@@ -1,0 +1,136 @@
+* {
+  
+  
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+ 
+}
+
+body {
+    font-family: 'Anonymous Pro', monospace;
+    color:white;
+  background-color: #252525;
+}
+
+.logo {
+    text-align: start;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    text-align: center;
+    width: 78%;
+    margin: auto;
+    overflow: hidden;
+    font-size:large;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: x-large;
+    color: #ff8c37;
+}
+
+.nav a:hover {
+    background-color: #212121;
+    border: 999px;
+    border-radius: 999px;
+    padding: 10px;
+    letter-spacing:5px;
+}
+
+.circ {
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+    padding:50px;
+    float:left;
+}
+
+.code a {
+    boarder-radius: 30px;
+    color: white;
+    background-color: #9c4fcc;
+    overflow: hidden;
+ 
+}
+.code button {
+    background-color: #9c4fcc;
+    color: white;
+    boarder-radius: 30px;
+    width: 200px;
+    height: 30px;
+    border: 3px solid black;
+}
+
+    .code button:hover {
+        background-color: #742ea0;
+    }
+
+.learn iframe{
+    float:right;
+}
+
+.off {
+    float: left;
+    box-sizing: border-box;
+}
+
+.off-3{
+   
+    box-sizing:border-box;
+}
+
+    .off-3 a {
+        color: #ffb821;
+        text-decoration: none;
+    }
+
+.off a {
+    color: #ffb821;
+    text-decoration:none;
+}
+
+.off-2 a {
+    color: #ffb821;
+    text-decoration: none;
+}
+
+.foot {
+    background-color: black;
+    color: pink;
+    font-family: 'Coda Caption', sans-serif;
+}
+
+.all{
+    text-align:right;
+    padding:110px;
+}
+
+.icon{
+    font-size:xx-large;
+}
+
+.icon a{
+    color:white;
+    text-decoration:none;
+    border:150px;
+      display:inline-block;
+      padding:15px;
+}
+
+.foot a {
+    color: white;
+    text-decoration: none;
+}
+
