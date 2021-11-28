@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    font-family: 'Anonymous Pro', monospace;
+    color: white;
+    background-color: #252525;
+}
+
+.logo {
+    text-align: start;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav {
+    text-align: center;
+    width: 78%;
+    margin: auto;
+    overflow: hidden;
+    font-size: large;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: x-large;
+    color: #ff8c37;
+}
+
+    .nav a:hover {
+        background-color: #212121;
+        border: 999px;
+        border-radius: 999px;
+        padding: 10px;
+    }

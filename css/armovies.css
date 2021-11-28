@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Almarai', sans-serif;
+    font-size:x-large;
+}
+
+.title {
+    text-align: center;
+}
+
+.dot {
+    text-align: center;
+}
