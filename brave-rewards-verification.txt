@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: dev7knight.github.io
+Token: ca4d0370f364d5527273e907554f1d556725b5c18dbb69826d00a51642422b54
